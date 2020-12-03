@@ -6,6 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    Main 
+    <% if(name) {%>
+    <h2><%=name%></h2>
+    <%  } else {%>
+    <h2>Welcome stranger</h2>
+    <%}%>
+    <%=name%>
 </body>
 </html>
